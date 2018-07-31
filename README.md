@@ -1,6 +1,23 @@
 SALES TAXES
 ==========
 
+**INSTRUCTIONS**
+----------------
+
+Technology: Java 1.8
+
+Tools: Eclipse IDE
+
+Instructions:
+-	Download the zip file from the below URL and unzip.
+
+	https://github.com/prashanthibellam/TaxCalculator
+-	Open Eclipse IDE, Go to File >> Open Projects From File System >> Import Source from the Directory >> Click Finish
+-	In Project Explorer, right click on the project Sales Tax and select Run As >> Run Configurations >> Java Application >> Click Run
+
+**PROBLEM**
+------------
+
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
  
 When I purchase items I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts of sales taxes paid.  The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax.
